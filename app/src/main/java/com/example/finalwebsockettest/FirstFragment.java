@@ -52,7 +52,7 @@ public class FirstFragment extends Fragment {
         sharedPref.registerOnSharedPreferenceChangeListener(listener);
 
         textView.setText(Integer.toString(moistureInPercentage) + "%");
-        timeView.setText(TextTime); //textview
+        timeView.setText(TextTime);
 
 
         view.findViewById(R.id.button_first).setOnClickListener(new View.OnClickListener() {
